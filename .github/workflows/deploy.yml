@@ -18,12 +18,10 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: '20'      # no cache here – avoids lockfile requirement
 
       - name: Install dependencies
-        run: npm install
-
+        run: npm install          # not `npm ci`
 
       - name: Build
         run: npm run build
