@@ -1,0 +1,131 @@
+[
+  {
+    "id": "p01",
+    "text": "We need to automatically detect leaks in our water network and shut valves.",
+    "industry": "Utilities",
+    "correctProductLine": "OperationalAI",
+    "explanation": "Direct operational action (detect & act) = Operational AI."
+  },
+  {
+    "id": "p02",
+    "text": "Finance needs a monthly cash-flow dashboard combining ERP and bank data.",
+    "industry": "CrossDomain",
+    "correctProductLine": "DataAnalytics",
+    "explanation": "Insight/decision support = Data & Analytics."
+  },
+  {
+    "id": "p03",
+    "text": "All subsidiaries need a shared data lake with governed access.",
+    "industry": "PublicSector",
+    "correctProductLine": "AIPlatforms",
+    "explanation": "Shared capability/infrastructure = AI-Enabled Platform."
+  },
+  {
+    "id": "p04",
+    "text": "A manufacturer wants computer-vision to auto-reject defects on the line.",
+    "industry": "Manufacturing",
+    "correctProductLine": "OperationalAI",
+    "explanation": "Real-time action in operations = Operational AI."
+  },
+  {
+    "id": "p05",
+    "text": "Retail wants store manager dashboards for daily sales and basket analysis.",
+    "industry": "Retail",
+    "correctProductLine": "DataAnalytics",
+    "explanation": "Dashboards & insights for humans = Data & Analytics."
+  },
+  {
+    "id": "p06",
+    "text": "We need an internal ML platform so teams can train/deploy models.",
+    "industry": "CrossDomain",
+    "correctProductLine": "AIPlatforms",
+    "explanation": "Foundational tooling for many use-cases = Platform."
+  },
+  {
+    "id": "p07",
+    "text": "Insurance wants to auto-approve simple claims under $500.",
+    "industry": "Financial",
+    "correctProductLine": "OperationalAI",
+    "explanation": "Automated decision that executes = Operational AI."
+  },
+  {
+    "id": "p08",
+    "text": "HR wants attrition risk predictions and drivers per department.",
+    "industry": "CrossDomain",
+    "correctProductLine": "DataAnalytics",
+    "explanation": "Predict & explain for humans to act = Analytics."
+  },
+  {
+    "id": "p09",
+    "text": "We need an API catalog with secure data products for all entities.",
+    "industry": "PublicSector",
+    "correctProductLine": "AIPlatforms",
+    "explanation": "Shared APIs/data products = Platform."
+  },
+  {
+    "id": "p10",
+    "text": "Hospital wants AI triage to prioritize ER patients continuously.",
+    "industry": "Healthcare",
+    "correctProductLine": "OperationalAI",
+    "explanation": "Real-time triage affecting ops = Operational AI.",
+    "tricky": true
+  },
+  {
+    "id": "p11",
+    "text": "We want a forecasting report of refinery output weekly.",
+    "industry": "OilGas",
+    "correctProductLine": "DataAnalytics",
+    "explanation": "Reporting & planning insights = Analytics."
+  },
+  {
+    "id": "p12",
+    "text": "We need a feature store to reuse ML features across teams.",
+    "industry": "CrossDomain",
+    "correctProductLine": "AIPlatforms",
+    "explanation": "Reusable capability for many models = Platform."
+  },
+  {
+    "id": "p13",
+    "text": "We want to detect anomalies in procurement and auto-freeze payments.",
+    "industry": "PublicSector",
+    "correctProductLine": "OperationalAI",
+    "explanation": "Automated actuation (freeze) = Operational AI.",
+    "tricky": true
+  },
+  {
+    "id": "p14",
+    "text": "We\u2019d like a compliance dashboard that alerts policy breaches.",
+    "industry": "CrossDomain",
+    "correctProductLine": "DataAnalytics",
+    "explanation": "Alerts & dashboards for humans = Analytics."
+  },
+  {
+    "id": "p15",
+    "text": "We need a common IoT ingestion layer for factory sensors.",
+    "industry": "Manufacturing",
+    "correctProductLine": "AIPlatforms",
+    "explanation": "Shared ingestion infra = Platform."
+  },
+  {
+    "id": "p16",
+    "text": "We want a port crane scheduler that recommends but does not execute.",
+    "industry": "Logistics",
+    "correctProductLine": "DataAnalytics",
+    "explanation": "Decision support only (recommends) = Analytics.",
+    "tricky": true
+  },
+  {
+    "id": "p17",
+    "text": "We need to optimize truck routing and automatically assign drivers daily.",
+    "industry": "Logistics",
+    "correctProductLine": "OperationalAI",
+    "explanation": "Automated assignment that triggers ops = Operational AI."
+  },
+  {
+    "id": "p18",
+    "text": "We want a multi-tenant analytics workspace for all subsidiaries.",
+    "industry": "CrossDomain",
+    "correctProductLine": "AIPlatforms",
+    "explanation": "Shared, multi-tenant analytics capability = Platform."
+  }
+]

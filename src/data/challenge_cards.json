@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ch01",
+    "prompt": "A city plans to deploy universal face-recognition at scale in 6 months.",
+    "signals": [
+      "High public sensitivity",
+      "No published ethics framework",
+      "Vendor lock-in"
+    ],
+    "correct": "Failure",
+    "rationale": "Governance and public trust will likely block or delay; risk outweighs speed."
+  },
+  {
+    "id": "ch02",
+    "prompt": "A utility wants AI to advise grid operators; pilots will be human-in-the-loop.",
+    "signals": [
+      "Safety-first",
+      "Telemetry-rich environment",
+      "Incremental rollout"
+    ],
+    "correct": "Success",
+    "rationale": "Scoped, safe deployments build trust; measurable efficiency gains likely."
+  },
+  {
+    "id": "ch03",
+    "prompt": "A holding company wants a \u2018universal AI platform\u2019 before any use-case wins.",
+    "signals": [
+      "Platform-first",
+      "No lighthouse projects",
+      "Roadmap unclear"
+    ],
+    "correct": "Failure",
+    "rationale": "Platforms need demand pull; build after real wins, not before."
+  },
+  {
+    "id": "ch04",
+    "prompt": "A hospital wants analytics on bed flow with weekly operations meetings.",
+    "signals": [
+      "Clear business owner",
+      "Data available",
+      "Ops cadence"
+    ],
+    "correct": "Success",
+    "rationale": "Fast insights with process ownership tend to land and stick."
+  },
+  {
+    "id": "ch05",
+    "prompt": "A retailer wants \u2018AI everywhere\u2019 with one chatbot.",
+    "signals": [
+      "No specific tasks",
+      "No system hooks",
+      "No owner"
+    ],
+    "correct": "Failure",
+    "rationale": "Generic assistants without integration rarely deliver ROI."
+  },
+  {
+    "id": "ch06",
+    "prompt": "A port wants AI crane scheduling after sim validation.",
+    "signals": [
+      "Digital twin",
+      "Operator training plan",
+      "KPIs defined"
+    ],
+    "correct": "Success",
+    "rationale": "Validated in simulation + clear KPIs \u2192 good candidate."
+  }
+]
