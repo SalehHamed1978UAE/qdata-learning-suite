@@ -29,15 +29,30 @@ export default function Stakeholder(){
   const template = useMemo(()=>stake.find((s:any)=>s.audience===aud),[stake,aud])
   const nouns = nounMap[scenario?.industry ?? 'CrossDomain']
 
-  function adapt(text:string){
-    if(!scenario) return ''
-    return text
-      .replaceAll('predictive maintenance', scenario.problem.toLowerCase().includes('predict')?'predictive maintenance':scenario.problem.toLowerCase())
-      .replaceAll('plant', nouns.site)
-      .replaceAll('site', nouns.site)
-      .replaceAll('asset', nouns.asset)
-      .replaceAll('portfolio', 'portfolio')
-  }
+ function replaceAllSafe(haystack: string, needle: string, replacement: string) {
+  // ES2020-safe: split + join
+  return haystack.split(needle).join(replacement);
+}
+
+function adapt(text: string) {
+  if (!scenario) return '';
+  let out = text;
+
+  const problemLower = scenario.problem.toLowerCase();
+  const nounsLocal = nouns;
+
+  // Example noun swaps (keep order deterministic)
+  out = replaceAllSafe(out, 'predictive maintenance',
+    problemLower.includes('predict') ? 'predictive maintenance' : problemLower);
+
+  out = replaceAllSafe(out, 'plant', nounsLocal.site);
+  out = replaceAllSafe(out, 'site', nounsLocal.site);
+  out = replaceAllSafe(out, 'asset', nounsLocal.asset);
+  out = replaceAllSafe(out, 'portfolio', 'portfolio');
+
+  return out;
+}
+
 
   return (
     <div className="card">
