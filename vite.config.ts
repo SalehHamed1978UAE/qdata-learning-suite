@@ -2,6 +2,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// IMPORTANT: 'base' must match your repo name for GitHub Pages.
 export default defineConfig({
-  plugins: [react()]
+  plugins: [react()],
+  base: '/qdata-learning-suite/'
 })

@@ -45,3 +45,24 @@ src/
 - Replace JSON in `/src/data/` to customize scenarios/cases.
 - Styling is minimal, dark theme; feel free to add Tailwind or shadcn/ui.
 - License: MIT
+
+
+---
+
+## Zero-Local Setup: GitHub Pages Auto-Deploy
+
+This repo is pre-configured to **build and deploy automatically** to GitHub Pages on every push to `main` using GitHub Actions.
+
+**Steps:**
+1. Create a repository on GitHub named `qdata-learning-suite`.
+2. Upload all files (including the `.github/workflows/deploy.yml`).
+3. Go to **Settings → Pages** and set:
+   - **Source**: `Deploy from a branch`
+   - **Branch**: `gh-pages` / `/ (root)`
+
+After the first push to `main`, the workflow will:
+- install deps,
+- build with Vite,
+- publish `dist/` to `gh-pages` branch.
+
+Your site will be live at: `https://<your-username>.github.io/qdata-learning-suite/`
