@@ -20,7 +20,13 @@ export default function Playground(){
   function submit(){ setSubmitted(true) }
   function reset(){ setPl(undefined); setSp(undefined); setSt(undefined); setSubmitted(false) }
 
-  const score = (submitted && s) ? ((pl===s.correctProductLine) + (sp===s.recommendedStartSpeed) + (st===s.startingStage)) : 0
+  const score =
+  submitted && s
+    ? Number(pl === s.correctProductLine) +
+      Number(sp === s.recommendedStartSpeed) +
+      Number(st === s.startingStage)
+    : 0;
+
 
   return (
     <div className="card">
