@@ -1,0 +1,267 @@
+[
+  {
+    "id": "cs01",
+    "title": "Refinery Uptime via Predictive Maintenance",
+    "year": 2024,
+    "industry": [
+      "OilGas"
+    ],
+    "summary": "Sensor-driven failure prediction reduced unplanned downtime by 18% across two refineries.",
+    "valueDriver": "Predictive maintenance",
+    "outcome": "Success",
+    "reasons": [
+      "High-frequency sensor data available",
+      "Clear ROI on downtime avoided",
+      "Tight integration with maintenance work orders"
+    ],
+    "maturity": "Scaling",
+    "hypeVsRevenue": {
+      "hype": 3,
+      "revenue": 5
+    },
+    "notes": "fabricated example"
+  },
+  {
+    "id": "cs02",
+    "title": "Watson Health Oncology Advisor",
+    "year": 2018,
+    "industry": [
+      "Healthcare"
+    ],
+    "summary": "Ambitious AI clinical decision support struggled with accuracy and adoption; program wound down.",
+    "valueDriver": "Clinical decision support",
+    "outcome": "Failure",
+    "reasons": [
+      "Sparse labeled data",
+      "Clinical safety constraints",
+      "Low physician trust"
+    ],
+    "maturity": "Pilot",
+    "hypeVsRevenue": {
+      "hype": 5,
+      "revenue": 1
+    },
+    "notes": "fabricated synthesis of public lore"
+  },
+  {
+    "id": "cs03",
+    "title": "Retail Computer-Vision Checkout",
+    "year": 2023,
+    "industry": [
+      "Retail"
+    ],
+    "summary": "Camera-based cashierless checkout reduced queue times by 40% in 12 pilot stores.",
+    "valueDriver": "CV automation",
+    "outcome": "Mixed",
+    "reasons": [
+      "CapEx high",
+      "Shrinkage concerns",
+      "Great CX where implemented"
+    ],
+    "maturity": "Pilot",
+    "hypeVsRevenue": {
+      "hype": 4,
+      "revenue": 3
+    },
+    "notes": "fabricated"
+  },
+  {
+    "id": "cs04",
+    "title": "Banking Fraud Analytics Platform",
+    "year": 2025,
+    "industry": [
+      "Financial"
+    ],
+    "summary": "Streaming anomaly detection reduced false positives by 27%, saving $8.4M/year.",
+    "valueDriver": "Real-time analytics",
+    "outcome": "Success",
+    "reasons": [
+      "High-quality labeled datasets",
+      "SOC process integration",
+      "Executive sponsorship"
+    ],
+    "maturity": "GA",
+    "hypeVsRevenue": {
+      "hype": 3,
+      "revenue": 5
+    },
+    "notes": "fabricated"
+  },
+  {
+    "id": "cs05",
+    "title": "Smart Grid Autobalancing",
+    "year": 2024,
+    "industry": [
+      "Utilities"
+    ],
+    "summary": "Reinforcement learning assisted operators; achieved 2.3% efficiency gain without compromising safety.",
+    "valueDriver": "Operational optimization",
+    "outcome": "Success",
+    "reasons": [
+      "Human-in-the-loop",
+      "Sandboxed rollout",
+      "Good telemetry"
+    ],
+    "maturity": "Scaling",
+    "hypeVsRevenue": {
+      "hype": 3,
+      "revenue": 4
+    },
+    "notes": "fabricated"
+  },
+  {
+    "id": "cs06",
+    "title": "Citywide Facial Recognition",
+    "year": 2022,
+    "industry": [
+      "PublicSector"
+    ],
+    "summary": "Technology worked but halted due to policy backlash and governance concerns.",
+    "valueDriver": "Public safety AI",
+    "outcome": "Failure",
+    "reasons": [
+      "Public trust",
+      "Legal risk",
+      "Vendor lock-in"
+    ],
+    "maturity": "Prototype",
+    "hypeVsRevenue": {
+      "hype": 4,
+      "revenue": 1
+    },
+    "notes": "fabricated"
+  },
+  {
+    "id": "cs07",
+    "title": "F&B Demand Forecasting",
+    "year": 2025,
+    "industry": [
+      "Manufacturing",
+      "Retail"
+    ],
+    "summary": "SKUs forecasts improved MAPE by 12pts; inventory carrying costs fell 9%.",
+    "valueDriver": "Forecasting",
+    "outcome": "Success",
+    "reasons": [
+      "Clean historical data",
+      "Planner buy-in",
+      "Closed-loop with ERP"
+    ],
+    "maturity": "GA",
+    "hypeVsRevenue": {
+      "hype": 2,
+      "revenue": 5
+    },
+    "notes": "fabricated"
+  },
+  {
+    "id": "cs08",
+    "title": "Autonomous Port Crane Scheduling",
+    "year": 2025,
+    "industry": [
+      "Logistics"
+    ],
+    "summary": "Optimized crane assignment; 7% throughput uplift; safety incidents unchanged.",
+    "valueDriver": "Scheduling optimization",
+    "outcome": "Success",
+    "reasons": [
+      "Digital twin simulation",
+      "Operator training",
+      "Clear KPIs"
+    ],
+    "maturity": "Scaling",
+    "hypeVsRevenue": {
+      "hype": 3,
+      "revenue": 4
+    },
+    "notes": "fabricated"
+  },
+  {
+    "id": "cs09",
+    "title": "Enterprise Chatbot for All Use-Cases",
+    "year": 2023,
+    "industry": [
+      "CrossDomain"
+    ],
+    "summary": "One chatbot attempted to serve HR, IT, and Finance; adoption remained low.",
+    "valueDriver": "GenAI assistant",
+    "outcome": "Failure",
+    "reasons": [
+      "No narrow tasks",
+      "Lack of integration",
+      "No ownership"
+    ],
+    "maturity": "Pilot",
+    "hypeVsRevenue": {
+      "hype": 5,
+      "revenue": 1
+    },
+    "notes": "fabricated"
+  },
+  {
+    "id": "cs10",
+    "title": "Hospital Bed-Flow Analytics",
+    "year": 2024,
+    "industry": [
+      "Healthcare"
+    ],
+    "summary": "Dashboards on occupancy and LOS informed staffing; 6% cut in average wait time.",
+    "valueDriver": "Analytics",
+    "outcome": "Success",
+    "reasons": [
+      "Clear visualizations",
+      "Ops nurse champion",
+      "Data governance early"
+    ],
+    "maturity": "GA",
+    "hypeVsRevenue": {
+      "hype": 2,
+      "revenue": 4
+    },
+    "notes": "fabricated"
+  },
+  {
+    "id": "cs11",
+    "title": "Procurement Anomaly Detection",
+    "year": 2025,
+    "industry": [
+      "PublicSector"
+    ],
+    "summary": "Flagged suspicious vendors; audit backlog reduced 22%.",
+    "valueDriver": "Risk analytics",
+    "outcome": "Success",
+    "reasons": [
+      "Data joins across silos",
+      "Explainable models",
+      "Policy-as-code rules"
+    ],
+    "maturity": "Scaling",
+    "hypeVsRevenue": {
+      "hype": 3,
+      "revenue": 4
+    },
+    "notes": "fabricated"
+  },
+  {
+    "id": "cs12",
+    "title": "Universal AI Platform Big Bang",
+    "year": 2021,
+    "industry": [
+      "CrossDomain"
+    ],
+    "summary": "Central platform launched without use-cases; shelved after low usage.",
+    "valueDriver": "Platform first",
+    "outcome": "Failure",
+    "reasons": [
+      "No lighthouse wins",
+      "Poor developer UX",
+      "Governance friction"
+    ],
+    "maturity": "GA",
+    "hypeVsRevenue": {
+      "hype": 4,
+      "revenue": 1
+    },
+    "notes": "fabricated"
+  }
+]
